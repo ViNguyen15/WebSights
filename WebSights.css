@@ -1,15 +1,26 @@
 
+h1 {
+	text-align: center;
+	font-size: 70px;
+}
+
 body {
 	background-color: #9999ff;
 }
 
 table { 
 	text-align: center;
+	border-collapse: collapse;
 	margin: auto;
+	width: 1200px;
+	height: 600px;
 	border: 5px solid #000066;
 	border-spacing: 2px;
 }
 
- td,th {padding: 0.5em;
- 		font-family: Arial, sans-serif;
-        border: 1px solid #000066;}
+ td,th {
+	padding: 0.5em;
+ 	font-family: Arial, sans-serif;
+    border: 1px solid #000066;
+}
+

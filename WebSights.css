@@ -1,0 +1,11 @@
+
+body {
+	background-color: #9999ff;
+}
+
+table { 
+	text-align: center;
+	margin: auto;
+	border: 5px solid #000066;
+	border-spacing: 2px;
+}

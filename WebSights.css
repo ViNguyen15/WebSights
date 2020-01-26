@@ -9,8 +9,6 @@ body {
 	color: #fff
 }
 
-
-
 a{
 	color: #fff;
 }
@@ -18,6 +16,7 @@ a{
  td,th {
 	padding: 0.5em;
  	font-family: Arial, sans-serif;
+	font-size: 1.5em;
     border: 1px solid #000066;
 	width: 240px;
 }

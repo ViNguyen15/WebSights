@@ -2,4 +2,8 @@
 Yo Hey guys this is Jimmy go ahead and write something underneath
 Hey, this is Jacob
 okay im going to write something
-hey guys yall should pull this diiiiiiiic
+We should use this to document what we do
+
+This Website is created in only HTML and CSS
+there are plans in adding javascript so that certain links can autoupdate on its own
+Most of this was a tutorial for Shiny and Holy Cannoli

@@ -5,7 +5,21 @@ h1 {
 }
 
 body {
-	background-color: #9999ff;
+	background-color: #99f;
+	color: #fff
+}
+
+
+
+a{
+	color: #fff;
+}
+
+ td,th {
+	padding: 0.5em;
+ 	font-family: Arial, sans-serif;
+    border: 1px solid #000066;
+	width: 240px;
 }
 
 table { 
@@ -14,13 +28,27 @@ table {
 	margin: auto;
 	width: 1200px;
 	height: 600px;
-	border: 5px solid #000066;
+	border: 5px solid #339933;
 	border-spacing: 2px;
+	overflow: hidden;
+
 }
 
- td,th {
-	padding: 0.5em;
- 	font-family: Arial, sans-serif;
-    border: 1px solid #000066;
+tr:hover {
+  background-color: #990;
 }
 
+td, th {
+  position: relative;
+}
+td:hover::after,
+th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #990;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}

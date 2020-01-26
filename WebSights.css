@@ -2,15 +2,16 @@
 h1 {
 	text-align: center;
 	font-size: 70px;
+	color: #70f;
 }
 
 body {
-	background-color: #99f;
-	color: #fff
+	background-color: #f90;
+	color: #000;
 }
 
 a{
-	color: #fff;
+	color: #70f;
 }
 
  td,th {
@@ -34,7 +35,7 @@ table {
 }
 
 tr:hover {
-  background-color: #990;
+  background-color: #0f0;
 }
 
 td, th {
@@ -44,7 +45,7 @@ td:hover::after,
 th:hover::after {
   content: "";
   position: absolute;
-  background-color: #990;
+  background-color: #0f0;
   left: 0;
   top: -5000px;
   height: 10000px;
